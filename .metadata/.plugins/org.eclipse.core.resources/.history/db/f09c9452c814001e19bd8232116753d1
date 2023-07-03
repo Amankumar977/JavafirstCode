@@ -1,0 +1,23 @@
+public class Launch {
+	public static void main(String[] args) {
+		  
+		Person p1=new Person();
+		p1.name= "Aman";
+	    p1.age=21;
+	    p1.marks=22;
+		p1.walk(2);
+		
+	}
+}
+
+class Person {
+	String name;
+	int age;
+	float marks;
+	public void walk() {
+		System.out.print(name+ " " +"is"+  " " +"Eating");
+	}
+    public void walk(int steps) {
+    	System.out.print(name+ " " +"is"+  " " +"walking"+" "+steps+ " "+"Steps");
+    }
+}

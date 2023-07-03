@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		String str= "Hello world!";
+		System.out.println(removeCharAt(str,3));
+	
+	}
+	public static String removeCharAt(String s, int posi) {
+		return s.substring(0,posi);
+	}
+}

@@ -1,0 +1,16 @@
+public class Launch {
+	public static void main(String[] args) {
+		  Person p1= new Person("Aman",26);
+		System.out.println(p1.name);
+	}
+}
+
+class Person {
+	String name;
+	int age;
+	
+	Person(String name,int age){
+		this.name= name;
+		this.age=age;
+	}
+}

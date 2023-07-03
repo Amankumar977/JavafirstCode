@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		Person.IncreaseNumber(1);
+		System.out.println(Person.IncreaseNumber());
+	}
+
+}
+
+class Person {
+	
+	public static void IncreaseNumber(int number) {
+		number+=1;
+		
+	}
+}

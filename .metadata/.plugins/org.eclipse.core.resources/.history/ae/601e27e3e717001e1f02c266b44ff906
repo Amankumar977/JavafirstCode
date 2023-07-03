@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		String str= "hello World!";
+		int intIndex= str.indexOf("World!");
+		
+		if(intIndex==-1) {
+			System.out.println("Not found");
+		}else {
+			System.out.println("Found at Index "+intIndex);
+		}
+	
+	}
+	
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		System.out.print(Person.IncreaseNumber(1));
+	}
+
+}
+
+class Person {
+	
+	public static void IncreaseNumber(int number) {
+		number+=1;
+		
+	}
+}

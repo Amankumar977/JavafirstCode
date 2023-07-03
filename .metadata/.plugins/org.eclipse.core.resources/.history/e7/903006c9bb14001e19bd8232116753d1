@@ -1,0 +1,15 @@
+public class Launch {
+	public static void main(String[] args) {
+		  String name="Aman";
+		  String name2= "Aman2";
+		  
+		  System.out.println(name);
+		  System.out.println(name2);
+	}
+}
+
+//class Person {
+//	String name;
+//	int age;
+//	float marks;
+//}

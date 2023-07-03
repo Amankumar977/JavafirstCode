@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+      Person.name="Aman";
+	}
+
+}
+
+class Person {
+	static String name;
+}

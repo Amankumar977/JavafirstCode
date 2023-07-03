@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+      Person.instanceNo(1);
+      System.out.println(Person.instance);
+      
+	}
+
+}
+
+class Person {
+	int number;
+	static int instance=0;
+  
+	public Person(int number) {
+		this.number=number;
+		instance++;
+	}
+	public static int getInstance() {
+		return instance;
+	}
+	
+}

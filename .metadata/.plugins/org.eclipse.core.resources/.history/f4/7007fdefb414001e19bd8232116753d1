@@ -1,0 +1,13 @@
+public class Launch {
+	public static void main(String[] args) {
+		  
+		Person p1=new Person();
+		
+	}
+}
+
+class Person{
+	String name;
+	int age;
+	float marks;
+}

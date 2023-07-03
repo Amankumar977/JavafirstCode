@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		int n=4;
+		for (int i=0;i<n.lengh;i++) {
+			
+		}
+
+	}
+
+}
+
+

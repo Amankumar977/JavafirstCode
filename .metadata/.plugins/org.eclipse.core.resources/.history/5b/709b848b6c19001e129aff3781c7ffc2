@@ -1,0 +1,21 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+      
+      
+	}
+
+}
+
+class Person {
+	String name;
+	int rollNumber;
+	 
+	public Person(String name, int rollNumber){
+		this.name=name;
+		this.rollNumber=rollNumber;
+	}
+	
+}

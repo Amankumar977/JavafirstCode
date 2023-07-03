@@ -1,0 +1,21 @@
+public class Launch {
+	public static void main(String[] args) {
+		  
+		Person p1=new Person();
+		p1.name= "Aman";
+	    p1.age=21;
+	    p1.marks=22;
+		
+		System.out.println(p1.age+" "+p1.name+" "+p1.marks);
+	}
+}
+
+class Person {
+	String name;
+	int age;
+	float marks;
+	public void eat() {
+		System.out.print("Eating");
+	}
+  
+}

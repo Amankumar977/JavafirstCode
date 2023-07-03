@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Launch {
+
+	public static void main(String[] args) {
+		static int a=10;
+		
+		int a1 =10;
+	
+	}
+	
+}
+
+
